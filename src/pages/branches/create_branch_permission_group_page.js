@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './create_branch_permission_group_page.css'
-import CreatePermissionGroupStepperComponent from '../../components/branches/form_components/stepper_components/create_permission_group_stepper_component/create_permission_group_stepper_component';
+import CreatePermissionGroupStepperComponent from '../../components/branches/form_components/stepper_components/create_permission_group_stepper_component/create_permission_stepper';
 import { useDispatch, useSelector } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import { modifyPermissionGroup, reset } from '../../state_management/middlewares/modify_permission_groups_middleware';

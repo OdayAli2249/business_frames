@@ -7,7 +7,7 @@ import ButtonComponent from '../core/button_component';
 import PermissionGroupCardComponent from './cards/permission_group_card_component';
 import { useEffect, useRef, useState } from 'react';
 import DialogComponent from '../core/dialog_components/dialog_component';
-import CreatePermissionGroupStepperComponent from './form_components/stepper_components/create_permission_group_stepper_component/create_permission_group_stepper_component';
+import CreatePermissionGroupStepperComponent from './form_components/stepper_components/create_permission_group_stepper_component/create_permission_stepper';
 import { useDispatch, useSelector } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import { modifyPermissionGroup, reset } from '../../state_management/middlewares/modify_permission_groups_middleware';

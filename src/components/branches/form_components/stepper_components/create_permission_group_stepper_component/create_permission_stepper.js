@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useRef, useEffect } from 'react';
-import './create_permission_group_stepper_style.scss';
+import './create_permission_stepper.scss';
 import CreatePermissionGroupStep1 from './create_permission_group_steps/create_permission_group_step1';
 import CreatePermissionGroupStep2 from './create_permission_group_steps/create_permission_group_step2';
 import CreatePermissionGroupStep3 from './create_permission_group_steps/create_permission_group_step3';
