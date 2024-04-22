@@ -31,7 +31,7 @@ function UserAuthPage(props) {
 
     useEffect(() => {
         if (createResult.failure != null || createResult.success != null) {
-            createResult.success && navigate('/home')
+            createResult.success && navigate('/business_frames/home')
             createResult.failure && toast(createResult.failure.message.slice(2), {
                 position: 'top-center',
                 autoClose: 5000,
@@ -54,7 +54,7 @@ function UserAuthPage(props) {
             <div className='user-auth-page-forground'>
                 <h4 className='user-auth-page-home-navigate'
                     onClick={() => {
-                        navigate('/home')
+                        navigate('/business_frames/home')
                     }}>home</h4>
                 <img className='user-auth-page-forground-image'
                     src={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/sign up background.png'}></img>
