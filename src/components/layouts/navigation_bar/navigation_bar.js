@@ -51,7 +51,7 @@ function NavigationBar(props) {
         </li>
         <SpaceComponent width={'20px'} /> */}
         <li className={selectedCategory === 'home' ? "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/home')}
+            onClick={() => handleCategoryClick('home')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(1);
             }} onMouseLeave={() => {
@@ -69,7 +69,7 @@ function NavigationBar(props) {
             type={'service-providers'} />}
         <li className={selectedCategory === 'service-providers' ?
             "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/service-providers')}
+            onClick={() => handleCategoryClick('service-providers')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(2);
             }} onMouseLeave={() => {
@@ -87,7 +87,7 @@ function NavigationBar(props) {
             type={'members'} />}
         <li className={selectedCategory === 'members' ?
             "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/members')}
+            onClick={() => handleCategoryClick('members')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(3);
             }} onMouseLeave={() => {
@@ -106,7 +106,7 @@ function NavigationBar(props) {
             type={'resources'} />}
         <li className={selectedCategory === 'resources' ?
             "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/resources')}
+            onClick={() => handleCategoryClick('resources')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(5);
             }} onMouseLeave={() => {
@@ -125,7 +125,7 @@ function NavigationBar(props) {
         <li
             className={selectedCategory === 'branches' ?
                 "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/branches')}
+            onClick={() => handleCategoryClick('branches')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(7);
             }} onMouseLeave={() => {
@@ -150,7 +150,7 @@ function NavigationBar(props) {
 
     const location = useLocation();
     useEffect(() => {
-        setSelectedCategory(location.pathname.split('/')[2]);
+        setSelectedCategory(location.pathname.split('/')[1]);
     }, [location]);
 
     const handleCategoryClick = (item) => {
@@ -168,13 +168,13 @@ function NavigationBar(props) {
                 {user.failure ?
                     <> <li className="authentication-button"
                         onClick={() =>
-                            navigate('/business_frames/auth?tab=signin')
+                            navigate('/auth?tab=signin')
                         }>
                         Log in
                     </li>
                         <li className="authentication-button"
                             onClick={() =>
-                                navigate('/business_frames/auth?tab=signup')
+                                navigate('/auth?tab=signup')
                             }>
                             Sign up
                         </li></> : <></>}

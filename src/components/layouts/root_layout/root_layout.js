@@ -9,14 +9,14 @@ function RootLayout(props) {
     const location = useLocation();
     const [layout, setLayout] = useState(0);
     useEffect(() => {
-        setLayout(location.pathname.split('/')[3] ? 1 :
-            location.pathname.split('/')[2] == 'auth' ? 2 : 0);
+        setLayout(location.pathname.split('/')[2] ? 1 :
+            location.pathname.split('/')[1] == 'auth' ? 2 : 0);
     }, [location]);
 
     return (
         <div className='root-layout'>
             <main>
-                {location.pathname.split('/')[2] == 'auth' ? <></> : <NavigationBar />}
+                {location.pathname.split('/')[1] == 'auth' ? <></> : <NavigationBar />}
                 <div style={{ height: (layout == 0 ? 60 : layout == 2 ? 0 : 180) + 'px' }} />
                 <div style={{
                     width: '100%', height: 'calc(100vh - ' +
