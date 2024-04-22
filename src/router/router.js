@@ -33,7 +33,7 @@ import ErrorComponent from '../components/core/state_components/error_component'
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/' element={<RootLayout />}>
-            <Route path='/' element={<GetStartedPage />} />
+            <Route path='/business_frames' element={<GetStartedPage />} />
             <Route path='/home' element={<HomePage />} />
             <Route path='/auth' element={<UserAuthPage />} />
             <Route path='/branches' element={<BranchesGetStartedPage />} />

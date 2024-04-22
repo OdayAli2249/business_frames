@@ -40,7 +40,7 @@ function NavigationBar(props) {
     }, []);
 
     const categories = (<ul className="categories">
-        <li className={selectedCategory === '' ? "active-categories-item" : "categories-item"}
+        {/* <li className={selectedCategory === '' ? "active-categories-item" : "categories-item"}
             onClick={() => handleCategoryClick('')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(0);
@@ -49,7 +49,7 @@ function NavigationBar(props) {
             }}>
             <h5 className="categories-label">Get Started</h5>
         </li>
-        <SpaceComponent width={'20px'} />
+        <SpaceComponent width={'20px'} /> */}
         <li className={selectedCategory === 'home' ? "active-categories-item" : "categories-item"}
             onClick={() => handleCategoryClick('home')}
             onMouseEnter={() => {

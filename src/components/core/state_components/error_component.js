@@ -6,10 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import SpaceComponent from '../space_component';
 
 function ErrorComponent(props) {
-console.log('__________________________',props.message);
     return (
         <div className='error-component-root'>
-            <h3 className='error-message'>{props.message}</h3>
+            <h3 className='error-message'>{props.message ? props.message : 'Service Not Available Now'}</h3>
             <SpaceComponent height={'20px'} />
             <img src={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/error.png'} className='error-image'></img>
             <SpaceComponent height={'20px'} />
