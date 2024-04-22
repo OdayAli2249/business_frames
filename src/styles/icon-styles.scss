@@ -1,0 +1,27 @@
+@each $key-icon-color,
+$val-icon-color in $icon-color {
+
+    @each $key-icon-size,
+    $val-icon-size in $icon-size {
+
+        .#{$key-icon-color}-#{$key-icon-size}-hover {
+            width: $val-icon-size;
+            height: $val-icon-size;
+            color: $val-icon-color;
+
+            &:hover {
+                color: $val-icon-color;
+            }
+
+            cursor: pointer;
+        }
+
+        .#{$key-icon-color}-#{$key-icon-size} {
+            width: $val-icon-size;
+            height: $val-icon-size;
+            color: $val-icon-color;
+        }
+
+    }
+
+}

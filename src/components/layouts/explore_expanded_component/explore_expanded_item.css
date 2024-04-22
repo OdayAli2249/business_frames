@@ -1,0 +1,28 @@
+.expanded-item {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item-icon {
+    /* flex: 1; */
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.item-text {
+    /* flex: 4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}

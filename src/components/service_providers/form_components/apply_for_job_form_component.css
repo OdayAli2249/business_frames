@@ -1,0 +1,145 @@
+.apply-for-job-form-component-root {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.apply-for-job-form-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.apply-for-job-form-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.apply-for-job-form-title-text {
+    height: 10%;
+    word-wrap: break-word;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.apply-for-job-form-text-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apply-for-job-form-column {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.apply-for-job-form-title-text {
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.apply-for-job-form-sub-title-text {
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 300;
+    color: #5b5b5b;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.apply-for-job-form-button-icon {
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+
+.apply-for-job-form-button-section {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+}
+
+.apply-for-job-form-button {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.apply-for-job-form-button:hover {
+    background-color: #666;
+}
+
+.apply-for-job-form-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.apply-for-job-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .apply-for-job-form-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .apply-for-job-form-column {
+        width: 90%;
+    }
+
+    .apply-for-job-row {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }  
+}

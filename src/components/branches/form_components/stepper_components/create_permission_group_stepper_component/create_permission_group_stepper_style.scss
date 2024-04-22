@@ -1,0 +1,110 @@
+@import '../../../../../styles/styles.scss';
+
+.create-permission-group-stepper-component-root {
+    width: $max-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.create-permission-group-stepper-header {
+    width: $max-width;
+    height: 100px;
+    @extend .row-main-center-cross-center;
+    border-top-left-radius: $small-radius;
+    border-top-right-radius: $small-radius;
+
+}
+
+.create-permission-group-step-indicator {
+    width: $extra-small-icon;
+    height: $extra-small-icon;
+    padding: $small-padding;
+    background-color: $blue-color;
+    color: white;
+    border-radius: $medium-radius;
+    @extend .row-main-center-cross-center;
+}
+
+.create-permission-group-done-step-indicator {
+    width: $extra-small-icon;
+    height: $extra-small-icon;
+    padding: $small-padding;
+    background-color: $green-color;
+    color: white;
+    border-radius: $medium-radius;
+    @extend .row-main-center-cross-center;
+}
+
+.create-permission-group-active-step-indicator {
+    width: $extra-small-icon;
+    height: $extra-small-icon;
+    padding: $small-padding;
+    background-color: $blue-accent-color;
+    color: white;
+    border-radius: $medium-radius;
+    color: $blue-accent-color;
+    @extend .row-main-center-cross-center;
+}
+
+.create-permission-group-step-line {
+    height: 3px;
+    background-color: $blue-color;
+}
+
+.create-permission-group-done-step-line {
+    height: 3px;
+    background-color: $green-color;
+}
+
+.create-permission-group-active-step-line {
+    height: 3px;
+    background-color: $blue-accent-color;
+}
+
+.create-permission-group-stepper-body {
+    width: $max-width;
+    flex: 6;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+Fragment {
+    position: relative;
+}
+
+.create-permission-group-stepper-buttons-container {
+    height: 100px;
+    width: $max-width;
+    @extend .row-main-center-cross-center;
+    padding: $medium-padding;
+    justify-content: flex-end;
+}
+
+.create-permission-group-next-button {
+    width: 20%;
+    height: 50%;
+    border: 3px solid $secondary;
+    color: $secondary;
+    @extend .row-main-center-cross-center;
+    border-radius: $small-radius;
+    cursor: pointer;
+}
+
+.create-permission-group-back-button {
+    margin-right: 10px;
+    width: 20%;
+    height: 50%;
+    background-color: $secondary;
+    @extend .row-main-center-cross-center;
+    border-radius: $small-radius;
+    cursor: pointer;
+}
+
+.create-permission-group-next-button-label {
+    color: $secondary;
+}

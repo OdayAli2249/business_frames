@@ -1,0 +1,40 @@
+.service-provider-branches-component-root {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service-provider-branches-section-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.service-provider-branches-section-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.service-provider-branches-section-show-all {
+    color: rgb(55, 183, 187);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.service-provider-branches-section-show-all:hover {
+    color: rgb(82, 231, 236);
+    font-size: 19px;
+    cursor: pointer;
+}

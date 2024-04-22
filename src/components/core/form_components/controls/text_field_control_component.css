@@ -1,0 +1,75 @@
+.text-field-control-root {
+    width: 100%;
+    height: auto;
+}
+
+.text-field-control-label {
+    word-wrap: break-word;
+    font-size: 18px;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.text-field-control-field-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #333;
+    border-radius: 4px;
+}
+
+.focused-text-field-control-field-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 3px solid black;
+    border-radius: 4px;
+}
+
+.text-field-control-field-icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.text-field-control-field {
+    width: calc(100% - 40px);
+    font-size: 21px;
+    border: 0px;
+    outline: 0px;
+}
+
+.text-field-control-field::placeholder {
+    font-size: 16px;
+}
+
+.text-field-control-error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-field-control-error-icon {
+    width: 15px;
+    height: 15px;
+    color: #d21111;
+}
+
+.text-field-control-error-text {
+    width: auto;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 300;
+    color: #d21111;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}

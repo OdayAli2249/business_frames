@@ -1,0 +1,53 @@
+.dark-background {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 998;
+}
+
+.dialog-component-root {
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    width: 50%;
+    height: 96%;
+    transform: translate(-50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    z-index: 999;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+.close-dialog {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.close-dialog:hover {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    background-color: rgb(215, 215, 215);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}

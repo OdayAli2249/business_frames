@@ -1,0 +1,77 @@
+.member-profile-card-component-root {
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+.member-profile-card-picture {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(233, 221, 221);
+    outline: 3px solid white;
+    border: 3px solid #333;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.member-profile-card-title-text {
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 300;
+    color: #5b5b5b;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.member-profile-card-button-text {
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}
+
+.member-profile-card-button-icon {
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+
+.member-profile-card-button {
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.member-profile-card-picture-loading {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(233, 221, 221);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-profile-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

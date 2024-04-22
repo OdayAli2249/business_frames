@@ -1,0 +1,32 @@
+.service-providers-wrapper-root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.service-providers-wrapper-body {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    /* padding: 40px; */
+    /* background-color: rgb(56, 56, 56); */
+}
+
+.service-providers-content-wrapper {
+    width: 80%;
+    height: calc(100vh - 180px);
+    overflow-y: scroll;
+    /* background-color: rgb(65, 65, 65); */
+}
+
+@media only screen and (max-width: 1200px) {
+    .service-providers-content-wrapper {
+        width: 100%;
+    }
+}

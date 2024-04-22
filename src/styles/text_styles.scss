@@ -1,0 +1,27 @@
+@each $key-text-color,
+$val-text-color in $text-color {
+
+    @each $key-text-size,
+    $val-text-size in $text-size {
+
+        @each $key-text-weight,
+        $val-text-weight in $text-weight {
+            .#{$key-text-color}-#{$key-text-size}-#{$key-text-weight} {
+                color: $val-text-color;
+                font-size: $val-text-size;
+                font-weight: $val-text-weight;
+                padding: 0px;
+                margin: 0px;
+                text-align: left;
+            }
+        }
+
+    }
+
+}
+
+
+.error-text {
+    @extend .medium-xs-text-size-s-text-weight;
+    color: $error-color;
+}

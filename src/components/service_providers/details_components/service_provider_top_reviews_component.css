@@ -1,0 +1,44 @@
+.service-provider-top-reviews-item-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-provider-top-reviews-item-icon {
+    color: white;
+    background-color: rgb(160, 160, 160);
+    width: 20px;
+    height: 20px;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.service-provider-reviews-sub-title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start;
+    margin: 0px;
+    align-items: center;
+    color: #7e7e7e;
+}
+
+.service-provider-reviews-rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-provider-reviews-rating-icon {
+    color: rgb(255, 164, 28);
+}
+
+.service-provider-top-reviews-contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}

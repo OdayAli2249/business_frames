@@ -1,0 +1,113 @@
+.home-header-section {
+    position: relative;
+    width: 100%;
+    height: 780px;
+    background-color: rgb(246, 235, 193);
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.home-header-details {
+    padding: 0;
+    margin: 0;
+    /* width: 50%; */
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-left: 128px;
+}
+
+.home-header-title {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    font-size: 64px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #f1f1f1;
+    background-color: transparent;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+
+.home-header-discription {
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.home-header-image-back-ground {
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+.home-header-gradient-back-ground {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home-header-details-back-ground {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 550px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.qiuck-navigate-section {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0.5; */
+    /* background-color: rgb(153, 160, 79); */
+}
+
+.qiuck-navigate-options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+    /* background-color: rgb(79, 136, 160); */
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .home-header-section {
+        height: 550px;
+    }
+
+    .home-header-details{
+        margin-left: 28px;
+    }
+}

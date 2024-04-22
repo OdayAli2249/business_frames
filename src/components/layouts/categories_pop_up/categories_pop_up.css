@@ -1,0 +1,131 @@
+.hover-box {
+    position: absolute;
+    top: 40px;
+    transform: translate(-30%);
+    z-index: 1;
+    width: 40%;
+    height: 330px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: transparent;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.pop-up-box {
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.363);
+}
+
+.options-section {
+    width: 50%;
+    height: 100%;
+    /* margin-left: 50px; */
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    /* works */
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.options-list {
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(8, 50, 50);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* height: fit-content; */
+
+    align-items: flex-end;
+    /* align-content: center; */
+    /* height: fit-content; */
+    /* align-content: flex-end; */
+    /* justify-content: flex-start; */
+}
+
+.option-item {
+    background-color: blue;
+    padding: 10px;
+}
+
+.option-link {
+    background-color: rgb(255, 0, 21);
+    padding: 10px;
+}
+
+.external-heading {
+    padding: 10px;
+    background-color: rgb(196, 58, 155);
+}
+
+.option-link {
+    color: #ffffff;
+}
+
+.image-section {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(48, 48, 48);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.margin-erea {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(115, 115, 115);
+}
+
+.get-started-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    background-color: rgb(97, 97, 97);
+}
+
+.explore-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    background-color: rgb(140, 140, 140);
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .hover-box {
+        display: none;
+    }
+}

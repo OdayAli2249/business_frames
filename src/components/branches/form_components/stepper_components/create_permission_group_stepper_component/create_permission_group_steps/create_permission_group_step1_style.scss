@@ -1,0 +1,74 @@
+@import '../../../../../../styles/styles.scss';
+
+.create-permission-group-step1-root {
+    @extend .column-main-start-cross-start;
+    width: $max-width;
+    padding-left: $large-padding;
+    flex: 9;
+}
+
+.step1-header-title-outer-row {
+    width: $max-width;
+    @extend .row-main-space-between-cross-center;
+}
+
+.create-permission-group-step1-content {
+    width: 50%;
+    @extend .column-main-start-cross-start;
+    padding-left: $large-padding;
+}
+
+.create-permission-group-step1-row {
+    padding-left: $large-padding;
+    @extend .row-main-start-cross-center;
+    padding: $small-padding;
+    border: 2px solid #333;
+    border-radius: $small-radius;
+}
+
+.create-permission-group-step1-text {
+    word-wrap: break-word;
+    font-size: 21px;
+    font-weight: bold;
+    color: $strong-color;
+    margin: 0px;
+    margin-right: 20px;
+    padding: $small-padding;
+    cursor: pointer;
+    border-radius: $small-radius;
+    display: flex;
+    flex-direction: row;
+}
+
+.selected-create-permission-group-step1-text {
+    word-wrap: break-word;
+    font-size: 21px;
+    font-weight: bold;
+    color: $strong-color;
+    margin: 0px;
+    margin-right: 20px;
+    padding: $small-padding;
+    cursor: pointer;
+    background-color: $weak-color;
+    border-radius: $small-radius;
+    display: flex;
+    flex-direction: row;
+}
+
+.selected-create-permission-group-step1-text:hover {
+    background-color: $weak-color;
+    border: 0px;
+}
+
+.create-permission-group-step1-text:hover {
+    background-color: $weak-color;
+    border: 0px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .create-permission-group-step1-content {
+        width: 80%;
+    }
+
+}

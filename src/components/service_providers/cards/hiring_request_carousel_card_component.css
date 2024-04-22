@@ -1,0 +1,187 @@
+.hiring-requests-carousel-card {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+    box-shadow: 0px 0px 15px 2px rgb(234, 234, 234);
+}
+
+.hiring-requests-status {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 4px;
+    background-color: #e9c046;
+    box-shadow: none;
+    border-radius: 6px;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.accept-reject-hiring-requests-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.accept-hiring-requests-button {
+    color: #333;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #333;
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 0px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.accept-hiring-requests-button:hover {
+    background-color: #a6a6a6;
+}
+
+.reject-hiring-requests-button {
+    color: white;
+    width: 80%;
+    height: auto;
+    padding: 12px;
+    background-color: #333;
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 0px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.reject-hiring-requests-button:hover {
+    background-color: #6f6f6f;
+}
+
+.view-hiring-requests-button {
+    height: auto;
+    border: 2px solid #333;
+    color: #333;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: none;
+    border-radius: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.view-hiring-requests-button:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.hiring-requests-carousel-card-profile-picture-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.hiring-requests-carousel-card-profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 221, 221);
+    outline: 3px solid white;
+    border: 3px solid #333;
+    border-radius: 100px;
+    cursor: pointer;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiring-requests-carousel-card-member-name {
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+}
+
+.hiring-requests-carousel-card-member-discriptions {
+    padding: 0px;
+    margin: 0px;
+    color: #8e8e8e;
+}
+
+
+.reject-hiring-request-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reject-hiring-request-title-text {
+    word-wrap: break-word;
+    font-size: 21px;
+    font-weight: bold;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.reject-hiring-request-button-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.reject-hiring-request-button {
+    height: 50px;
+    width: 120px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reject-hiring-request-button:hover {
+    height: 50px;
+    width: 120px;
+    background-color: #666666;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.reject-hiring-request-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}

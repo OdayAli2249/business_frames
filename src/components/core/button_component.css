@@ -1,0 +1,50 @@
+
+.branch-permission-groups-card-button-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.button {
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    height: 30px;
+    padding: 10px;
+    background-color: #8a8a8a;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.button-icon {
+    width: 14px;
+    height: 14px;
+    color: white;
+}

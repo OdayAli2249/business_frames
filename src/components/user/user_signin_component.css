@@ -1,0 +1,98 @@
+.user-sign-in-component-root {
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.user-name-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.user-sign-in-text {
+    text-align: left;
+    margin: 0px;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(69, 69, 255);
+}
+
+.user-sign-in-remeber-me-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-sign-in-contract-check {
+    width: 18px;
+    height: 18px;
+}
+
+.user-sign-in-button {
+    width: auto;
+    height: 36px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.google-sign-up-button {
+    width: auto;
+    height: 36px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.user-sign-in-forgot {
+    color: rgb(69, 69, 255);
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.user-sign-in-divider {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.user-sign-in-divider-line {
+    flex: 5;
+    height: 1px;
+    background-color: #d3d3d3;
+}
+
+.user-sign-in-divider-or {
+    padding: 0px;
+    margin: 0px;
+    flex: 2;
+    font-size: 21px;
+    font-weight: 600;
+}

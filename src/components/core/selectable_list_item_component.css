@@ -1,0 +1,86 @@
+.selectable-list-item-component-root {
+    width: 100%;
+    height: auto;
+    border-left: 15px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(216, 216, 216);
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 10px;
+    position: relative;
+}
+
+.list-item-image {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.list-item-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.list-item-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.selectable-list-item-selected {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    box-sizing: border-box;
+    padding: 5px;
+    color: white;
+    border-radius: 11px;
+}
+
+.selectable-list-item-unselected {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(198, 198, 198);
+    background-color: transparent;
+    border-radius: 11px;
+}
+
+.list-item-title {
+    word-wrap: break-word;
+    font-size: 21px;
+    font-weight: 100;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.list-item-sub-title {
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(130, 130, 130);
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.list-item-icon {
+    width: 40px;
+    height: 40px;
+    color: #333;
+}

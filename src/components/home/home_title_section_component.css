@@ -1,0 +1,46 @@
+.home-title-text-section {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-title-text-side-line {
+    width: 20px;
+    height: 100%;
+    background-color: #333;
+}
+
+.home-title-text {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-title-section-title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 56px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #333;
+    background-color: transparent;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.home-title-section-sub-title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #adadad;
+    word-wrap: break-word;
+}

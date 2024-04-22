@@ -1,0 +1,133 @@
+.create-service-provider-stepper-component-root {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.create-service-provider-stepper-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.create-service-provider-step-indicator {
+    width: 10px;
+    height: 10px;
+    padding: 12px;
+    background-color: rgb(74, 106, 213);
+    color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-service-provider-done-step-indicator {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    background-color: rgb(127, 237, 58);
+    color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-service-provider-active-step-indicator {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    background-color: rgb(77, 237, 255);
+    color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reate-service-provider-step-indicator-icon {
+    color: white;
+}
+
+.create-service-provider-step-line {
+    height: 3px;
+    background-color: rgb(74, 106, 213);
+}
+
+.create-service-provider-done-step-line {
+    height: 3px;
+    background-color: rgb(127, 237, 58);
+}
+
+.create-service-provider-active-step-line {
+    height: 3px;
+    background-color: rgb(77, 237, 255);
+}
+
+.create-service-provider-stepper-body {
+    width: 100%;
+    flex: 6;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+Fragment {
+    position: relative;
+}
+
+.create-service-provider-stepper-buttons-container {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.create-service-provider-next-button {
+    width: 20%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #333;
+    color: #333;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.create-service-provider-back-button {
+    margin-right: 10px;
+    width: 20%;
+    height: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.create-service-provider-next-button-label {
+    color: #333;
+}
+
+
+
+/* how to make width and height as the same as the browser frame dimension, whatever context we in? */

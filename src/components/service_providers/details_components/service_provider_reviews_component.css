@@ -1,0 +1,130 @@
+.service-provider-reviews-component-root {
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    /* padding: 40px; */
+}
+
+.service-provider-statistical-rating-section {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.service-provider-top-reviews-section {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.service-provider-top-reviews-container {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+
+}
+
+.service-provider-reviews-title {
+    word-wrap: break-word;
+    font-size: 26px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.service-provider-reviews-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-provider-reviews-rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-provider-reviews-rating-icon {
+    color: rgb(255, 164, 28);
+}
+
+.service-provider-reviews-sub-title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start;
+    margin: 0px;
+    align-items: center;
+    color: #7e7e7e;
+}
+
+.service-provider-rating-persentage-row {
+    display: flex;
+    align-items: center;
+}
+
+.service-provider-rating-persentage-bar {
+    position: relative;
+    display: flex;
+    border-radius: 4px;
+}
+
+.service-provider-persentage-cotainer {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 4px;
+}
+
+.service-provider-persentage {
+    position: absolute;
+    width: 0px;
+    height: 20px;
+    background-color: rgb(255, 164, 28);
+    border-radius: 4px;
+}
+
+.service-provider-top-reviews-contacts-button {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #333;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .service-provider-reviews-component-root {
+        flex-direction: column;
+    }
+
+    .service-provider-statistical-rating-section {
+        width: 100%;
+    }
+    
+    .service-provider-top-reviews-section {
+        width: 100%;
+    }
+}

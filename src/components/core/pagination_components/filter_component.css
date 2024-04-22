@@ -1,0 +1,80 @@
+.filters-section-root {
+    width: 100%;
+    height: auto;
+    background-color: rgb(174, 82, 28);
+}
+
+.hidden-filters-section-root{
+    display: none;
+}
+
+.filter-types {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(174, 82, 28);
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.filter-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(174, 82, 28);
+}
+
+.selected-filter-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(93, 49, 24);
+}
+
+.filter-type:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(167, 68, 11);
+}
+
+.filter-type-options {
+    width: 100%;
+    height: auto;
+    background-color: rgb(199, 146, 116);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.filter-type-option{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 103, 68);
+}
+
+.selected-filter-type-option{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 205, 188);  
+}
+
+.filter-type-option:hover{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 86, 49);
+}
+

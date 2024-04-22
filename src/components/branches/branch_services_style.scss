@@ -1,0 +1,7 @@
+@import '../../styles/styles.scss';
+
+.branch-services-component-root {
+    width: $max-width;
+    @extend .column-main-center-cross-start;
+    border-radius: $small-radius;
+}

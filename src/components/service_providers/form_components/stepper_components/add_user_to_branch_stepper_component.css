@@ -1,0 +1,129 @@
+.add-user-to-branch-stepper-component-root {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.add-user-to-branch-stepper-header {
+    width: 100%;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.add-user-to-branch-step-indicator {
+    width: 10px;
+    height: 10px;
+    padding: 12px;
+    background-color: rgb(74, 106, 213);
+    color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-user-to-branch-done-step-indicator {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    background-color: rgb(127, 237, 58);
+    color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-user-to-branch-active-step-indicator {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    background-color: rgb(77, 237, 255);
+    color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-user-to-branch-step-indicator-icon {
+    color: white;
+}
+
+.add-user-to-branch-step-line {
+    height: 3px;
+    background-color: rgb(74, 106, 213);
+}
+
+.add-user-to-branch-done-step-line {
+    height: 3px;
+    background-color: rgb(127, 237, 58);
+}
+
+.add-user-to-branch-active-step-line {
+    height: 3px;
+    background-color: rgb(77, 237, 255);
+}
+
+.add-user-to-branch-stepper-body {
+    width: 100%;
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+Fragment {
+    position: relative;
+}
+
+.add-user-to-branch-stepper-buttons-container {
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.add-user-to-branch-next-button {
+    width: 20%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    border: 3px solid #333;
+    color: #333;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-user-to-branch-back-button {
+    width: 20%;
+    height: 80%;
+    background-color: #333;
+    margin-right: 30px;
+    border: 3px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-user-to-branch-next-button-label {
+    color: #333;
+}

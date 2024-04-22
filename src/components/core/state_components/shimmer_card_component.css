@@ -1,0 +1,37 @@
+.shimmer-card-root-grid-component {
+    position: relative;
+    width: 95%;
+    height: 370px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.custom-shape-shimmer {
+    background-color: rgb(235, 235, 235);
+}
+
+.shimmer-card-root-list-component {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+.shimmer {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255,0.8), transparent);
+    background-size: 200% 100%;
+    animation: shimmer-animation 1.5s infinite;
+}
+
+@keyframes shimmer-animation {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}

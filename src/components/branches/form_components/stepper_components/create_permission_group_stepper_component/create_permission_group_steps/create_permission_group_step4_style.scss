@@ -1,0 +1,28 @@
+@import '../../../../../../styles/styles.scss';
+
+.create-permission-group-step4-root {
+    @extend .column-main-start-cross-center;
+    width: $max-width;
+    padding-left: $large-padding;
+    overflow-y: scroll;
+    flex: 9;
+}
+
+.create-permission-group-step4-column {
+    width: 50%;
+    @extend .column-main-center-cross-start;
+    padding: $medium-padding;
+    background-color: $medium-weak-color;
+    border-radius: $small-radius
+}
+
+.create-permission-group-step4-header-title-outer-row {
+    @extend .row-main-space-between-cross-center;
+    width: $max-width;
+}
+
+@media only screen and (max-width: 700px) {
+    .create-permission-group-step4-column {
+        width: 80%;
+    }
+}

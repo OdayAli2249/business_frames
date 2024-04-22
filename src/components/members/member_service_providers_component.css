@@ -1,0 +1,43 @@
+.member-service-providers-component-root {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.member-service-providers-header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.member-service-providers-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.member-service-providers-show-all {
+    color: rgb(55, 183, 187);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.member-service-providers-show-all:hover {
+    color: rgb(82, 231, 236);
+    font-size: 19px;
+    cursor: pointer;
+}

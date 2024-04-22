@@ -1,0 +1,221 @@
+.product-view-component-root {
+    width: 100%;
+    height: 520px;
+    /* hard coded*/
+    overflow-y: scroll;
+}
+
+.product-view-component-content {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.product-reviews-rating-icon {
+    color: rgb(255, 164, 28);
+}
+
+.product-reviews-rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-view-images-section {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 18px;
+}
+
+.product-view-details-section {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.product-view-details-title {
+    width: 70%;
+    height: auto;
+    word-wrap: break-word;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-view-details-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-view-details-sub-title {
+    height: auto;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-view-details-discriptions {
+    height: auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #8e8e8e;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-view-details-features {
+    width: 70%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.product-view-details-features-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    /* padding: 0px;
+    margin: 0px; */
+    color: #7d7d7d;
+}
+
+.product-view-details-permissions {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-view-details-permission {
+    background-color: #333;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.product-view-details-info {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-view-details-info-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-view-details-info-row-inside {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-view-details-info-row-color {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.product-view-details-meta {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-view-details-meta-column {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.product-view-details-meta-columnitem {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-view-main-image {
+    width: 500px;
+    height: 350px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-view-main-image:hover {
+    border-radius: 10px;
+    transform: scale(103%, 103%);
+    transition: 0.2s;
+}
+
+.product-view-images-row {
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.product-view-image-item {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+   cursor: pointer;
+}
+
+.product-view-image-item:hover {
+    transform: scale(103%, 103%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.product-view-button {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}

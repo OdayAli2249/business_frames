@@ -1,0 +1,166 @@
+.product-card-component-root {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 15px 2px rgb(234, 234, 234);
+}
+
+.product-card-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-card-left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.product-card-right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-card-left-description {
+    height: auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #8e8e8e;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-card-left-title {
+    height: auto;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-card-image {
+    width: 90%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-reviews-rating-icon {
+    color: rgb(255, 164, 28);
+}
+
+.product-view-details-sub-title {
+    height: auto;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.product-card-info-button-icon {
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+
+.product-card-info-button-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.product-card-info-button {
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-card-info-button:hover {
+    height: 30px;
+    padding: 10px;
+    background-color: #666666;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-card-info-edit-button {
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-card-info-edit-button:hover {
+    height: 30px;
+    padding: 10px;
+    background-color: #666666;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-card-info-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}

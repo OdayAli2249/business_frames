@@ -1,0 +1,34 @@
+.home-card-icon-container {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-card-icon {
+    width: 60px;
+    height: 60px;
+    color: #333;
+}
+
+.home-card-title {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.home-card-text-container {
+    flex-direction: 4;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,166 @@
+.service-provider-carousel-card {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+    box-shadow: 0px 0px 15px 2px rgb(234, 234, 234);
+}
+
+.service-provider-card-info-title-main-icon-hover {
+    width: 15px;
+    height: 15px;
+    color: white;
+}
+
+
+.service-provider-card-body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.service-provider-card-image {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+
+.service-provider-card-info-title {
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-provider-card-info-title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-provider-card-info-title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-provider-card-info-title-main {
+    word-wrap: break-word;
+    font-size: 18px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.service-provider-card-info-title-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.service-provider-card-info-title-main-icon {
+    width: 14px;
+    height: 14px;
+    color: green;
+}
+
+.service-provider-card-info-sub-title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    align-items: center;
+}
+
+.service-provider-card-info-title-category {
+    word-wrap: break-word;
+    font-size: 12px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #a6a6a6;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+.service-provider-card-info-button-icon {
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+
+.service-provider-card-info-button-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.service-provider-card-info-button {
+    height: 50%;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.service-provider-card-info-button:hover {
+    height: 50%;
+    padding: 10px;
+    background-color: #666666;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.service-provider-card-info-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.service-provider-percentage-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

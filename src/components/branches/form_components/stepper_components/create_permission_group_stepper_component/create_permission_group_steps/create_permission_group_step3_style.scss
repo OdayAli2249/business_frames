@@ -1,0 +1,42 @@
+@import '../../../../../../styles/styles.scss';
+
+.create-permission-group-step3-root {
+    width: $max-width;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.create-permission-group-step3-content {
+    width: $max-width;
+    @extend .column-main-start-cross-center;
+}
+
+.create-permission-group-step3-tab-bar-button {
+    width: 100px;
+    height: 24px;
+    margin-top: 8px;
+    color: $secondary;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-permission-group-step3-carousel-container {
+    width: $max-width;
+    overflow-y: scroll;
+}
+
+.create-permission-group-step3-tab-bar {
+    @extend .row-main-start-cross-start;
+}
+
+.select-resources-grid-container {
+    @extend .column-main-start-cross-center;
+    width: $max-width;
+    padding: $small-padding;
+}
+
+.create-permission-group-step3-header-title-outer-row {
+    @extend .row-main-space-between-cross-center;
+    width: $max-width;
+    padding-left: $large-padding;
+}

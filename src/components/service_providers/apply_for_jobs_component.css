@@ -1,0 +1,73 @@
+.apply-for-jobs-component-root {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+.jobs-section-header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.jobs-section-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.jobs-section-show-all {
+    color: rgb(55, 183, 187);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.jobs-section-show-all :hover {
+    color: rgb(82, 231, 236);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.jobs-section-add-button {
+    width: auto;
+    height: 36px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.jobs-section-add-button:hover {
+    width: auto;
+    height: 36px;
+    background-color: #757575;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

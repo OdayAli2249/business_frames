@@ -1,0 +1,54 @@
+@import '../../../styles/styles.scss';
+
+.branch-permission-groups-carousel-card {
+    @extend .column-main-center-cross-center;
+    width: 95%;
+    border-radius: $small-radius;
+    padding: $medium-padding;
+    margin: 20px;
+}
+
+.branch-permission-groups-card-header {
+    width: $max-width;
+    @extend .row-main-space-between-cross-center;
+}
+
+.branch-permission-groups-card-text-section {
+    width: 60%;
+}
+
+.branch-permission-groups-card-icons-section {
+    width: 40%;
+}
+
+.branch-permission-groups-card-main-icon {
+    width: $max-width;
+    height: 150px;
+}
+
+.branch-permission-groups-card-permission-operation-icons {
+    width: $max-width;
+    @extend .row-main-center-cross-center;
+}
+
+.branch-permission-groups-card-meta-data {
+    width: 75%;
+    @extend .row-main-space-between-cross-center;
+}
+
+.branch-permission-groups-card-meta-data-divider {
+    width: 2px;
+    height: 80%;
+    background-color: $secondary;
+}
+
+.branch-permission-groups-card-button-section {
+    width: $max-width;
+    @extend .row-main-center-cross-center;
+}
+
+@media only screen and (max-width: 800px) {
+    .branch-permission-groups-carousel-card {
+       margin: 0px;
+    }
+}

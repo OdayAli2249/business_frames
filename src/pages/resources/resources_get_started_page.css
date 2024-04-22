@@ -1,0 +1,30 @@
+.resources-get-started-root {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resources-grid-container {
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.resources-get-started-title {
+    height: auto;
+    word-wrap: break-word;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}

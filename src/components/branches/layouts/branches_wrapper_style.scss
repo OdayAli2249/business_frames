@@ -1,0 +1,27 @@
+@import '../../../styles/styles.scss';
+
+.branches-wrapper-root {
+    width: $max-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.branches-wrapper-body {
+    width: $max-width;
+    height: calc(100vh - 60px);
+    @extend .row-main-space-between-cross-start;
+}
+
+.branches-content-wrapper {
+    width: 80%;
+    height: calc(100vh - 180px);
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 1200px) {
+    .branches-content-wrapper {
+        width: 100%;
+    }
+}

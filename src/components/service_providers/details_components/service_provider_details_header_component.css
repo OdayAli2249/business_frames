@@ -1,0 +1,211 @@
+.service-provider-details-header-component-root {
+    width: 100%;
+    height: auto;
+}
+
+.service-provider-details-section {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.service-provider-details-body {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.service-provider-details-info-title-main {
+    word-wrap: break-word;
+    font-size: 36px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.service-provider-details-info-samll-text {
+    word-wrap: break-word;
+    font-size: 12px;
+    font-family: 'Playfair Display SemiBold', serif;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.service-provider-details-info-text {
+    word-wrap: break-word;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.service-provider-details-info-section {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.service-provider-details-images-section {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.service-provider-details-main-image {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.service-provider-details-main-image:hover {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+    transform: scale(102%);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.service-provider-details-images-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.service-provider-details-images {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.service-provider-details-images:hover {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+    transform: scale(105%);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.service-provider-details-info-button-icon {
+    width: 24px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.service-provider-details-info-button-section {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-provider-details-info-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    .service-provider-details-body {
+        align-items: flex-start;
+    }
+
+    .service-provider-details-main-image {
+        width: 300px;
+        height: 225px;
+    }
+
+    .service-provider-details-main-image:hover {
+        width: 300px;
+        height: 225px;
+    }
+
+    .service-provider-details-images:last-of-type {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .service-provider-details-body {
+        align-items: flex-start;
+    }
+
+    .service-provider-details-main-image {
+        width: 250px;
+        height: 183px;
+    }
+
+    .service-provider-details-main-image:hover {
+        width: 150px;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .service-provider-details-body {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .service-provider-details-main-image {
+        width: 350px;
+        height: 270px;
+    }
+
+    .service-provider-details-main-image:hover {
+        width: 350px;
+        height: 270px;
+    }
+
+    .service-provider-details-info-section {
+        width: 100%;
+    }
+
+    .service-provider-details-images-section {
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,6 @@
+@import '../../styles/styles.scss';
+
+.branch-permission-groups-component-root {
+    width: $max-width;
+    @extend .column-main-center-cross-start;
+}

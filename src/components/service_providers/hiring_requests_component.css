@@ -1,0 +1,43 @@
+.hiring-requests-component-root {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.hiring-requests-section-header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.hiring-request-section-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.hiring-request-section-show-all {
+    color: rgb(55, 183, 187);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.hiring-request-section-show-all:hover {
+    color: rgb(82, 231, 236);
+    font-size: 19px;
+    cursor: pointer;
+}
+

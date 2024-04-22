@@ -1,0 +1,126 @@
+.job-offer-component-root {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.job-offer-details-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.job-offer-details-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.job-offer-header-title-text {
+    height: 10%;
+    word-wrap: break-word;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.job-offer-text-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.job-offer-details-column {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.job-offer-title-text {
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.job-offer-sub-title-text {
+    word-wrap: break-word;
+    font-size: 17px;
+    font-weight: 300;
+    color: #5b5b5b;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.job-offer-button-icon {
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+
+.job-offer-button-section {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+}
+
+.job-offer-button {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.job-offer-button:hover {
+    background-color: #666666;
+}
+
+
+.job-offer-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .job-offer-details-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: scroll;
+    }
+}

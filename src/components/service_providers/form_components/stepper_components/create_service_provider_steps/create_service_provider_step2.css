@@ -1,0 +1,91 @@
+.create-service-provider-step2-root {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.step2-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.step2-header-title-outer-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step2-header-title-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step2-header-title-text {
+    word-wrap: break-word;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.step2-container {
+    width: 100%;
+    height: 100%;
+}
+
+.step2-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.step2-left-column {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.step2-right-column {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 800px) {
+    .step2-row {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .step2-left-column {
+        width: 80%;
+    }
+
+    .step2-right-column {
+        width: 100%;
+    }
+}

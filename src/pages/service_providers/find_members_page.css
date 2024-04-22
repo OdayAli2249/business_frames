@@ -1,0 +1,115 @@
+.find-members-root {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-members-grid-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.find-members-floating-select-button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 18px;
+    width: 42px;
+    height: 42px;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(94, 215, 114);
+    box-shadow: 0px 0px 15px 2px rgb(174, 174, 174);
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.find-members-button-icon {
+    width: 14px;
+    height: 14px;
+    color: #333;
+}
+
+.find-members-button-section {
+    position: fixed;
+    width: auto;
+    height: auto;
+    bottom: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 0px 0px 15px 2px rgb(174, 174, 174);
+}
+
+.find-members-button {
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.find-members-button:hover {
+    height: auto;
+    padding: 10px;
+    background-color: #b7b7b7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.find-members-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 600;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .find-members-button-section {
+        position: fixed;
+        width: auto;
+        height: auto;
+        bottom: 50px;
+        left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 10px;
+        z-index: 3;
+        background-color: white;
+        box-shadow: 0px 0px 15px 2px rgb(174, 174, 174);
+    }
+}

@@ -1,0 +1,23 @@
+
+.card-selected {
+    position: absolute;
+    top: $extra-small-corner-position;
+    right: $extra-small-corner-position;
+    width: $extra-small-icon;
+    height: $extra-small-icon;
+    background-color: $green-color;
+    padding: 6px;
+    color: white;
+    border-radius: $medium-radius;
+}
+
+.card-unselected {
+    position: absolute;
+    top: $extra-small-corner-position;
+    right: $extra-small-corner-position;
+    width: 23px;
+    height: 23px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: $medium-radius;
+}

@@ -1,0 +1,123 @@
+@import '../../../styles/styles.scss';
+
+.branch-details-header-component-root {
+    width: $max-width;
+    @extend .column-main-center-cross-center;
+}
+
+.branch-details-section {
+    width: $max-width;
+    @extend .row-main-center-cross-start;
+}
+
+.branch-basic-details-section {
+    width: 50%;
+    @extend .column-main-start-cross-center;
+}
+
+.branch-details-body {
+    width: $max-width;
+    display: flex;
+    align-items: center;
+}
+
+.branch-details-info-section {
+    width: $max-width;
+    @extend .column-main-start-cross-start;
+}
+
+
+.branch-details-images-section {
+    width: 48%;
+    @extend .column-main-start-cross-start;
+}
+
+.branch-details-main-image {
+    width: 400px;
+    height: 300px;
+    border-radius: $small-radius;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.branch-details-main-image:hover {
+    transform: scale(102%);
+    transition: 200ms;
+}
+
+.branch-details-images-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.branch-details-images {
+    width: 120px;
+    height: 120px;
+    border-radius: $small-radius;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.branch-details-images:hover {
+    transform: scale(105%);
+    transition: 200ms;
+}
+
+.branch-statistical-left-section {
+    width: 42%;
+    @extend .column-main-start-cross-start;
+}
+
+.branch-statistics-item {
+    width: 90%;
+    @extend .column-main-start-cross-center;
+    border-radius: $small-radius;
+    padding: $medium-padding;
+    box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+}
+
+@media only screen and (max-width: 900px) {
+    .branch-details-main-image {
+        width: 300px;
+        height: 225px;
+    }
+
+    .branch-details-images {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .branch-details-main-image {
+        width: 400px;
+        height: 300px;
+    }
+
+    .branch-details-images {
+        width: 120px;
+        height: 120px;
+    }
+
+    .branch-details-section {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .branch-basic-details-section {
+        width: 100%;
+    }
+
+    .branch-details-images-section {
+        width: 100%;
+    }
+
+    .branch-statistical-left-section {
+        width: 100%;
+        align-items: center;
+    }
+}

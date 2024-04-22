@@ -1,0 +1,90 @@
+.text-area-control-root {
+    width: 100%;
+    height: auto;
+}
+
+.text-area-control-field-container {
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #333;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.focused-text-area-control-field-container {
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 3px solid #333;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.text-area-control-field-container::placeholder,
+.focused-text-area-control-field-container::placeholder {
+    color: #999;
+    font-size: 16px;
+}
+
+.text-area-control-label {
+    word-wrap: break-word;
+    font-size: 18px;
+    color: #333;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+
+.text-area-control-error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.text-area-control-error-icon {
+    width: 15px;
+    height: 15px;
+    color: #d21111;
+}
+
+.text-area-control-error-text {
+    width: auto;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 300;
+    color: #d21111;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.text-area-control-max-number {
+    width: auto;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    padding: 0px;
+    text-align: right;
+    margin: 0px;
+}
+
+.text-area-control-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}

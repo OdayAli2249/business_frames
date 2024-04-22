@@ -1,0 +1,55 @@
+.the-ceos-component-root {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ceos-carousel-card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+    box-shadow: 0px 0px 15px 10px rgb(216, 216, 216);
+}
+
+.ceos-section-header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.ceos-section-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.ceos-section-show-all {
+    color: rgb(55, 183, 187);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.ceos-section-show-all:hover {
+    color: rgb(82, 231, 236);
+    font-size: 19px;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+@import '../../../../../../styles/styles.scss';
+
+.create-permission-group-step2-root {
+    width: $max-width;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.select-members-grid-container {
+    @extend .column-main-start-cross-center;
+    width: $max-width;
+    padding-left: $large-padding;
+
+}
+
+.create-permission-group-step2-header-title-outer-row {
+    @extend .row-main-space-between-cross-center;
+    width: $max-width;
+}

@@ -1,0 +1,107 @@
+// colors
+$primary: white;
+$secondary: #333;
+$strong-color: black;
+$weak-color: rgb(214, 214, 214);
+$medium-weak-color: rgb(177, 177, 177);
+$error-color: rgb(255, 74, 74);
+$blue-color: rgb(74, 106, 213);
+$blue-accent-color: rgb(77, 237, 255);
+$green-color: rgb(127, 237, 58);
+$orange-color: rgb(255, 164, 28);
+
+$text-color: (
+    "dark": $strong-color,
+    "light": $primary,
+    "basic": $secondary,
+    "medium": $medium-weak-color
+);
+
+$background-color: (
+    "dark": $secondary,
+    "light": $primary,
+);
+
+$icon-color: (
+    "secondary-icon-color":$secondary,
+    "primary-icon-color":$primary,
+    "blue-icon-color": $blue-color,
+    "green-icon-color": $green-color,
+    "orange-icon-color": $orange-color,
+);
+
+// padding
+$extra-large-padding: 60px;
+$large-padding: 40px;
+$medium-padding: 20px;
+$small-padding: 10px;
+$extra-small-padding: 5px;
+
+// thickness
+$large-thickness: 4px;
+$medium-thickness: 3px;
+$small-thickness: 2px;
+
+$thickness: (
+    "l-thickness": $large-thickness,
+    "m-thickness": $medium-thickness,
+    "s-thickness": $small-thickness
+);
+
+// font size
+$extra-large-text-size: 60px;
+$large-text-size: 40px;
+$medium-text-size: 24px;
+$small-text-size: 18px;
+$extra-small-text-size: 15px;
+
+$text-size: (
+    "xl-text-size": $extra-large-text-size,
+    "l-text-size": $large-text-size,
+    "m-text-size": $medium-text-size,
+    "s-text-size":$small-text-size,
+    "xs-text-size":$extra-small-text-size,
+);
+
+// font weight
+$large-text-weight: bolder;
+$medium-text-weight: 600;
+$small-text-weight: 400;
+
+$text-weight: (
+    "l-text-weight": $large-text-weight,
+    "m-text-weight": $medium-text-weight,
+    "s-text-weight": $small-text-weight,
+);
+
+$max-width: 100%;
+
+// border radius
+$circular-border-radius: 500px;
+$extra-large-radius: 60px;
+$large-radius: 40px;
+$medium-radius: 20px;
+$small-radius: 10px;
+$extra-small-radius: 5px;
+
+// icon sizes
+$extra-large-icon: 70px;
+$large-icon: 55px;
+$medium-icon: 40px;
+$small-icon: 25px;
+$extra-small-icon: 15px;
+
+$icon-size: (
+    "xl-icon-size": $extra-large-icon,
+    "l-icon-size": $large-icon,
+    "m-icon-size": $medium-icon,
+    "s-icon-size":$small-icon,
+    "xs-icon-size":$extra-small-icon
+);
+
+
+$extra-large-corner-position: 128px;
+$large-corner-position: 72px;
+$medium-corner-position: 48px;
+$small-corner-position: 24px;
+$extra-small-corner-position: 12px;

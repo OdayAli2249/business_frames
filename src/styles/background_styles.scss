@@ -1,0 +1,84 @@
+$background-colors: (
+    "w-background-color": $weak-color,
+    "s-background-color": $weak-color,
+);
+
+$background-padding: (
+    "l-background-padding": $large-padding,
+    "m-background-padding": $medium-padding,
+    "s-background-padding": $small-padding,
+);
+
+
+@each $key-background-padding,
+$val-background-padding in $background-padding {
+
+    @each $key-background-colors,
+    $val-background-colors in $background-colors {
+
+        .#{$key-background-padding}-#{$key-background-colors}-circular-hover {
+            border-radius: $circular-border-radius;
+            background-color: $val-background-colors;
+            padding: $val-background-padding;
+
+            &:hover {
+                background-color: $val-background-colors;
+            }
+
+            cursor: pointer;
+        }
+
+        .#{$key-background-padding}-#{$key-background-colors}-circular {
+            border-radius: $circular-border-radius;
+            background-color: $val-background-colors;
+            padding: $val-background-padding;
+        }
+
+        .#{$key-background-padding}-#{$key-background-colors}-hover {
+            border-radius: $small-radius;
+            background-color: $val-background-colors;
+            padding: $val-background-padding;
+
+            &:hover {
+                background-color: $val-background-colors;
+            }
+
+            cursor: pointer;
+        }
+
+        .#{$key-background-padding}-#{$key-background-colors} {
+            border-radius: $small-radius;
+            background-color: $val-background-colors;
+            padding: $val-background-padding;
+        }
+
+    }
+
+}
+
+
+.light-background-hover {
+    background-color: $primary;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $weak-color;
+    }
+}
+
+.light-background {
+    background-color: $primary;
+}
+
+.dark-background-hover {
+    background-color: $secondary;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $weak-color;
+    }
+}
+
+.dark-background {
+    background-color: $secondary;
+}

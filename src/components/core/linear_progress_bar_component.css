@@ -1,0 +1,37 @@
+
+.percentage-row {
+    display: flex;
+    align-items: center;
+}
+
+.percentage-bar {
+    position: relative;
+    display: flex;
+    border-radius: 4px;
+}
+
+.percentage-container {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 4px;
+}
+
+.percentage {
+    position: absolute;
+    width: 0px;
+    height: 20px;
+    background-color:rgb(255, 164, 28);
+    border-radius: 4px;
+}
+
+.percentage-sub-title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+    align-items: center;
+    color: #7e7e7e;
+}
