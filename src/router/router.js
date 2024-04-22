@@ -34,9 +34,9 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/' element={<RootLayout />}>
             <Route path='/business_frames' element={<GetStartedPage />} />
-            <Route path='/home' element={<HomePage />} />
-            <Route path='/auth' element={<UserAuthPage />} />
-            <Route path='/branches' element={<BranchesGetStartedPage />} />
+            <Route path='/business_frames/home' element={<HomePage />} />
+            <Route path='/business_frames/auth' element={<UserAuthPage />} />
+            <Route path='/business_frames/branches' element={<BranchesGetStartedPage />} />
             <Route path='/branches' element={<BranchesWrapperComponent />}>
                 <Route path='branches-home/:id' element={<BranchesHomePage />} />
                 <Route path='members-find/:id' element={<AllBranchMembersPage />} />
@@ -46,15 +46,15 @@ const router = createBrowserRouter(
                 <Route path='branch-posts/:id' element={<BranchPostsPage />} />
                 <Route path='branch-services/:id' element={<BranchServicesPage />} />
             </Route>
-            <Route path='/members' element={<MembersGetStartedPage />} />
+            <Route path='/business_frames/members' element={<MembersGetStartedPage />} />
             <Route path='/members' element={<MembersWrapperComponent />}>
                 <Route path='members-home/:id' element={<MembersHomePage />} />
                 <Route path='member-service-providers/:id' element={<MemberServiceProvidersPage />} />
                 <Route path='update/:id' element={<UpdateMyProfilePage />} />
 
             </Route>
-            <Route path='/resources' element={<ResourcesGetStartedPage />} />
-            <Route path='/service-providers' element={<ServiceProvidersGetStartedPage />} />
+            <Route path='/business_frames/resources' element={<ResourcesGetStartedPage />} />
+            <Route path='/business_frames/service-providers' element={<ServiceProvidersGetStartedPage />} />
             <Route path='/service-providers' element={<ServiceProvidersWrapperComponent />}>
                 <Route path='service-provider-create/:id' element={<CraeteServiceProviderPage />} />
                 <Route path='service-providers-home/:id' element={<ServiceProvidersHomePage />} />

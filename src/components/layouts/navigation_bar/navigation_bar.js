@@ -150,7 +150,7 @@ function NavigationBar(props) {
 
     const location = useLocation();
     useEffect(() => {
-        setSelectedCategory(location.pathname.split('/')[1]);
+        setSelectedCategory(location.pathname.split('/')[2]);
     }, [location]);
 
     const handleCategoryClick = (item) => {
