@@ -1,12 +1,12 @@
 import React, { Fragment, useState, useRef, useEffect } from 'react';
 import './create_permission_stepper.scss';
-import CreatePermissionGroupStep1 from './create_permission_group_steps/create_permission_group_step1';
-import CreatePermissionGroupStep2 from './create_permission_group_steps/create_permission_group_step2';
-import CreatePermissionGroupStep3 from './create_permission_group_steps/create_permission_group_step3';
-import CreatePermissionGroupStep4 from './create_permission_group_steps/create_permission_group_step4';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight, faCheck, faCircle } from '@fortawesome/free-solid-svg-icons';
-import { PermissionGroupModel } from '../../../../../models/permission_group_model';
+import { PermissionGroupModel } from '../../../models/permission_group_model';
+import CreatePermissionGroupStep1 from './create_permission_group_step1';
+import CreatePermissionGroupStep2 from './create_permission_group_step2';
+import CreatePermissionGroupStep3 from './create_permission_group_step3';
+import CreatePermissionGroupStep4 from './create_permission_group_step4';
 
 function CreatePermissionGroupStepperComponent(props) {
 

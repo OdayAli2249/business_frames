@@ -2,7 +2,7 @@ import React, { useState, forwardRef } from 'react';
 import './create_permission_group_step4_style.scss'
 import { faTasks } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SpaceComponent from '../../../../../core/space_component';
+import SpaceComponent from '../../core/space_component';
 
 const CreatePermissionGroupStep4 = forwardRef((props, ref) => {
 

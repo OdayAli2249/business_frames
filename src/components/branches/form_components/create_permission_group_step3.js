@@ -1,14 +1,14 @@
 import React, { useState, forwardRef, useRef } from 'react';
 import './create_permission_group_step3_style.scss'
-import CarouselComponent from '../../../../../core/carousel_component/carousel_component';
-import SpaceComponent from '../../../../../core/space_component';
-import PaginationComponent from '../../../../../core/pagination_components/pagination_component';
-import SelectableListItemComponent from '../../../../../core/selectable_list_item_component';
+import CarouselComponent from '../../core/carousel_component/carousel_component';
+import SpaceComponent from '../../core/space_component';
+import PaginationComponent from '../../core/pagination_components/pagination_component';
+import SelectableListItemComponent from '../../core/selectable_list_item_component';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBoxOpen, faTools } from '@fortawesome/free-solid-svg-icons';
-import { getServices } from '../../../../../../state_management/middlewares/services_middleware';
-import { getProducts } from '../../../../../../state_management/middlewares/products_middleware';
-import { getPosts } from '../../../../../../state_management/middlewares/posts_middleware';
+import { getServices } from '../../../state_management/middlewares/services_middleware';
+import { getProducts } from '../../../state_management/middlewares/products_middleware';
+import { getPosts } from '../../../state_management/middlewares/posts_middleware';
 
 const CreatePermissionGroupStep3 = forwardRef((props, ref) => {
 

@@ -1,11 +1,11 @@
 import React, { useState, forwardRef, useEffect } from 'react';
 import './create_permission_group_step2_style.scss';
-import PaginationComponent from '../../../../../core/pagination_components/pagination_component';
-import SelectableListItemComponent from '../../../../../core/selectable_list_item_component';
+import PaginationComponent from '../../core/pagination_components/pagination_component';
+import SelectableListItemComponent from '../../core/selectable_list_item_component';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SpaceComponent from '../../../../../core/space_component';
+import SpaceComponent from '../../core/space_component';
 import { faUsers, faUser } from '@fortawesome/free-solid-svg-icons';
-import { getBranchUsers } from '../../../../../../state_management/middlewares/branch_users_middleware';
+import { getBranchUsers } from '../../../state_management/middlewares/branch_users_middleware';
 
 const CreatePermissionGroupStep2 = forwardRef((props, ref) => {
 

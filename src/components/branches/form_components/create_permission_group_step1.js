@@ -1,11 +1,11 @@
 import React, { useState, forwardRef } from 'react';
 import './create_permission_group_step1_style.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SpaceComponent from '../../../../../core/space_component';
+import SpaceComponent from '../../core/space_component';
 import { faEdit, faLock, faPlus, faTrash, faWarning } from '@fortawesome/free-solid-svg-icons';
-import TextAreaControlComponent from '../../../../../core/form_components/controls/text_area_control_component';
-import TextFieldControlComponent from '../../../../../core/form_components/controls/text_field_control_component';
-import { Validations, Validator } from '../../../../../../helpers/validators';
+import TextAreaControlComponent from '../../core/form_components/controls/text_area_control_component';
+import TextFieldControlComponent from '../../core/form_components/controls/text_field_control_component';
+import { Validations, Validator } from '../../../helpers/validators';
 
 const CreatePermissionGroupStep1 = forwardRef((props, ref) => {
 

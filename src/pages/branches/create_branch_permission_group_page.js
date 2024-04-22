@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { modifyPermissionGroup, reset } from '../../state_management/middlewares/modify_permission_groups_middleware';
 import { Operations } from '../../state_management/actions';
 import { useNavigate, useParams } from 'react-router-dom';
-import CreatePermissionGroupStepperComponent from '../../components/branches/form_components/stepper_components/create_permission_stepper/create_permission_stepper';
+import CreatePermissionGroupStepperComponent from '../../components/branches/form_components/create_permission_stepper';
 
 
 function CraeteBranchPermissionGroupPage(props) {

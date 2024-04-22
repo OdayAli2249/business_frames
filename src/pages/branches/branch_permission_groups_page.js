@@ -5,7 +5,6 @@ import PermissionGroupCardComponent from '../../components/branches/cards/permis
 import { useDispatch, useSelector } from 'react-redux';
 import { getPermissionGroups } from '../../state_management/middlewares/permission_group_middleware';
 import { modifyPermissionGroup, reset } from '../../state_management/middlewares/modify_permission_groups_middleware';
-import CreatePermissionGroupStepperComponent from '../../components/branches/form_components/stepper_components/create_permission_stepper/create_permission_stepper';
 import { Operations } from '../../state_management/actions';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
@@ -16,6 +15,7 @@ import { useParams } from 'react-router-dom';
 import ConfirmActionComponent from '../../components/core/confirm_action_component';
 import { getBranchById } from '../../state_management/middlewares/branch_by_id_middleware';
 import { resetAuthStatus } from '../../state_management/middlewares/user_middleware';
+import CreatePermissionGroupStepperComponent from '../../components/branches/form_components/create_permission_stepper';
 
 function BranchPermissionGroupsPage(props) {
 
