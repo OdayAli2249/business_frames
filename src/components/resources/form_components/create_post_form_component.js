@@ -5,8 +5,8 @@ import FilePickerControlComponent from '../../core/form_components/controls/file
 import SpaceComponent from '../../core/space_component';
 import ButtonComponent from '../../core/button_component';
 import { PostModel } from '../../../models/post_model';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEdit, faSave } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEdit, faSave } from '@fortawesome/free-solid-svg-icons';
 
 function CreatePostFromComponent(props) {
 
@@ -46,7 +46,7 @@ function CreatePostFromComponent(props) {
                         props.onSubmit(PostModel.build(state));
                     })
                 }}>
-                <FontAwesomeIcon icon={props.post ? faEdit : faSave} />
+                {/* <FontAwesomeIcon icon={props.post ? faEdit : faSave} /> */}
                 <SpaceComponent width={'10px'} />
                 {props.post ? 'Update' : 'Create'}
             </div>
