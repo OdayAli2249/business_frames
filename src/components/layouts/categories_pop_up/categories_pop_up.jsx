@@ -8,7 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 function CategoriesPopUp(props) {
     const navigator = useNavigate();
     const user = useSelector(state => state.user);
-    const loginToast = () => toast('You have to login fisrt', {
+    const loginToast = () => toast('You have to login first', {
         position: 'top-center',
         autoClose: 5000,
         type: 'error'
@@ -16,7 +16,6 @@ function CategoriesPopUp(props) {
 
     return (
         <li >
-            <ToastContainer position="top-center" autoClose={5000} />
             <div className='hover-box' onMouseEnter={props.onMouseEnter}
                 onMouseLeave={props.onMouseLeave}>
                 <div className='pop-up-box' >

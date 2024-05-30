@@ -14,6 +14,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getUser, logOut } from '../../../state_management/middlewares/user_middleware';
 import NetworkImageComponent from '../../core/network_image_component';
 import ConfirmActionComponent from '../../core/confirm_action_component';
+import { ToastContainer } from 'react-toastify';
 
 function NavigationBar(props) {
 
@@ -140,7 +141,7 @@ function NavigationBar(props) {
 
     return (
         <nav className="navbar">
-
+            <ToastContainer position="top-center" autoClose={5000} />
             <ul className="authentication">
                 {user.failure ?
                     <> <li className="authentication-button"
