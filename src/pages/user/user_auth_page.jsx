@@ -12,6 +12,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 function UserAuthPage(props) {
 
+    const defaultMessage = 'Service not Available';
     const [currentTab, setCurrentTab] = useState(0);
     const navigate = useNavigate();
     const carouselRef = useRef(null);
@@ -32,7 +33,7 @@ function UserAuthPage(props) {
     useEffect(() => {
         if (createResult.failure != null || createResult.success != null) {
             createResult.success && navigate('/business_frames/home')
-            createResult.failure && toast(createResult.failure.message.slice(2), {
+            createResult.failure && toast(createResult.failure.message.slice(2) || defaultMessage, {
                 position: 'top-center',
                 autoClose: 5000,
                 type: 'error'

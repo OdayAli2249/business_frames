@@ -40,18 +40,8 @@ function NavigationBar(props) {
     }, []);
 
     const categories = (<ul className="categories">
-        {/* <li className={selectedCategory === '' ? "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('')}
-            onMouseEnter={() => {
-                setShowOptionsPopUp(0);
-            }} onMouseLeave={() => {
-                setShowOptionsPopUp(null);
-            }}>
-            <h5 className="categories-label">Get Started</h5>
-        </li>
-        <SpaceComponent width={'20px'} /> */}
         <li className={selectedCategory === 'home' ? "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/home')}
+            onClick={() => handleCategoryClick('home')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(1);
             }} onMouseLeave={() => {
@@ -69,7 +59,7 @@ function NavigationBar(props) {
             type={'service-providers'} />}
         <li className={selectedCategory === 'service-providers' ?
             "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/service-providers')}
+            onClick={() => handleCategoryClick('service-providers')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(2);
             }} onMouseLeave={() => {
@@ -87,7 +77,7 @@ function NavigationBar(props) {
             type={'members'} />}
         <li className={selectedCategory === 'members' ?
             "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/members')}
+            onClick={() => handleCategoryClick('members')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(3);
             }} onMouseLeave={() => {
@@ -106,7 +96,7 @@ function NavigationBar(props) {
             type={'resources'} />}
         <li className={selectedCategory === 'resources' ?
             "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/resources')}
+            onClick={() => handleCategoryClick('resources')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(5);
             }} onMouseLeave={() => {
@@ -125,7 +115,7 @@ function NavigationBar(props) {
         <li
             className={selectedCategory === 'branches' ?
                 "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('/business_frames/branches')}
+            onClick={() => handleCategoryClick('branches')}
             onMouseEnter={() => {
                 setShowOptionsPopUp(7);
             }} onMouseLeave={() => {
@@ -133,28 +123,15 @@ function NavigationBar(props) {
             }}>
             <h5 className="categories-label">Branches</h5>
         </li>
-        {/* <SpaceComponent width={'20px'} />
-        <li
-            className={selectedCategory === 'about-get-started' ?
-                "active-categories-item" : "categories-item"}
-            onClick={() => handleCategoryClick('about-get-started')}
-            onMouseEnter={() => {
-                setShowOptionsPopUp(8);
-            }} onMouseLeave={() => {
-                setShowOptionsPopUp(null);
-            }}>
-            <h5 className="categories-label">About</h5>
-        </li> */}
-
     </ul>);
 
     const location = useLocation();
     useEffect(() => {
-        setSelectedCategory(location.pathname.split('/')[2]);
+        setSelectedCategory(location.pathname.split('/')[1]);
     }, [location]);
 
     const handleCategoryClick = (item) => {
-        navigate(item);
+        navigate('/business_frames/' + item);
     };
 
     useEffect(() => {
@@ -185,9 +162,9 @@ function NavigationBar(props) {
                                 onClick={() => { navigate('/members/members-home/' + user.data.item.id) }} />
                         </div> */}
                         {user.data.item.profilePictureUrl ? <NetworkImageComponent className='navbar-profile-avatar'
-                            onClick={() => { navigate('/members/members-home/' + user.data.item.id) }}
+                            onClick={() => { navigate('/business_frames/members/members-home/' + user.data.item.id) }}
                             src={'users/' + user.data.item.profilePictureUrl} /> : <div className='navbar-profile-avatar'
-                                onClick={() => { navigate('/members/members-home/' + user.data.item.id) }} >
+                                onClick={() => { navigate('/business_frames/members/members-home/' + user.data.item.id) }} >
                             <FontAwesomeIcon icon={faUser} style={{ width: '30px', height: '30px', color: 'gray' }} />
                         </div>}
                         <SpaceComponent width={'6px'} />
@@ -212,7 +189,7 @@ function NavigationBar(props) {
                 </AllCategoriesPopUp> : <></>}
 
                 <img onClick={() => {
-                    navigate('/home')
+                    navigate('/business_frames/home')
                 }}
                     src={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/logo.png'} className='logo' />
             </div>

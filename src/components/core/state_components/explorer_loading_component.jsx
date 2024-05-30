@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import './explorer_loading_component.css';
-import MemberProfileCardComponent from '../../members/cards/member_profile_card_component.js';
-import ShimmerCardComponent from './shimmer_card_component';
-import SpaceComponent from '../space_component';
+import MemberProfileCardComponent from '../../members/cards/member_profile_card_component.jsx';
+import ShimmerCardComponent from './shimmer_card_component.jsx';
+import SpaceComponent from '../space_component.jsx';
 
 function ExplorerLoadingComponent(props) {
     return (

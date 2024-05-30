@@ -42,19 +42,22 @@ function JobApplicationComponent(props) {
                         </div>
                         <div className='job-application-text-row'>
                             <h4 className='job-application-sub-title-text'>
-                                <strong>Address</strong> {props.hiringRequest.user.address}
+                                <strong>Address</strong> {props.hiringRequest.user.address?
+                                props.hiringRequest.user.address:props.hiringRequest.address}
                             </h4>
                         </div>
                         <SpaceComponent height={'20px'} />
                         <div className='job-application-text-row'>
                             <h4 className='job-application-sub-title-text'>
-                                <strong>Education</strong> {props.hiringRequest.user.education}
+                                <strong>Education</strong> {props.hiringRequest.user.education?
+                                props.hiringRequest.user.education:props.hiringRequest.education }
                             </h4>
                         </div>
                         <SpaceComponent height={'20px'} />
                         <div className='job-application-text-row'>
                             <h4 className='job-application-sub-title-text'>
-                                <strong>Work Experience</strong> {props.hiringRequest.user.experience}
+                                <strong>Work Experience</strong> {props.hiringRequest.user.experience?
+                                props.hiringRequest.user.experience:props.hiringRequest.workExperience}
                             </h4>
                         </div>
                         <SpaceComponent height={'20px'} />

@@ -2,12 +2,21 @@ import React from 'react';
 import './categories_pop_up.css';
 import HomeOverviewSectionComponent from '../../home/home_overview_section_component';
 import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { ToastContainer, toast } from 'react-toastify';
 
 function CategoriesPopUp(props) {
     const navigator = useNavigate();
+    const user = useSelector(state => state.user);
+    const loginToast = () => toast('You have to login fisrt', {
+        position: 'top-center',
+        autoClose: 5000,
+        type: 'error'
+    })
 
     return (
         <li >
+            <ToastContainer position="top-center" autoClose={5000} />
             <div className='hover-box' onMouseEnter={props.onMouseEnter}
                 onMouseLeave={props.onMouseLeave}>
                 <div className='pop-up-box' >
@@ -20,7 +29,9 @@ function CategoriesPopUp(props) {
                             ]}
                             color={'#af23aa'}
                             onExploreClicked={() => {
-                                navigator('/service-providers?section=2')
+                                user.data && user.data.item ?
+                                    navigator('/service-providers?section=2')
+                                    : loginToast()
                             }}
                             image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/service_providers_home.jpg'}
                             type={1}
@@ -35,7 +46,9 @@ function CategoriesPopUp(props) {
                             ]}
                             color={'#da4444'}
                             onExploreClicked={() => {
-                                navigator('/members?section=2')
+                                user.data && user.data.item ?
+                                    navigator('/members?section=2')
+                                    : loginToast()
                             }}
                             image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/members_home.jpg'}
                             type={0}
@@ -50,7 +63,9 @@ function CategoriesPopUp(props) {
                             ]}
                             color={'rgb(184, 136, 34)'}
                             onExploreClicked={() => {
-                                navigator('/resources?section=2')
+                                user.data && user.data.item ?
+                                    navigator('/resources?section=2')
+                                    : loginToast()
                             }}
                             image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/resources_home.jpg'}
                             type={1}
@@ -65,7 +80,9 @@ function CategoriesPopUp(props) {
                             ]}
                             color={'#3c58b6'}
                             onExploreClicked={() => {
-                                navigator('/branches?section=2')
+                                user.data && user.data.item ?
+                                    navigator('/branches?section=2')
+                                    : loginToast()
                             }}
                             image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/branches_home.jpg'}
                             type={0}
