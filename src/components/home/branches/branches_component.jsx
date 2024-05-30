@@ -26,7 +26,7 @@ function BranchesComponent(props) {
                     if (props.onExploreClicked)
                         props.onExploreClicked()
                     else
-                        navigate('/branches?section=2')
+                        navigate('/business_frames/branches?section=2')
                 }}
                 image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/branches_home.jpg'}
                 type={0}

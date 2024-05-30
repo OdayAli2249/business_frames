@@ -26,7 +26,7 @@ function ServiceProvidersComponent(props) {
                     if (props.onExploreClicked)
                         props.onExploreClicked()
                     else
-                        navigate('/service-providers?section=2')
+                        navigate('/business_frames/service-providers?section=2')
                 }}
                 image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/service_providers_home.jpg'}
                 type={1}

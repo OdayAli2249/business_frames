@@ -34,26 +34,26 @@ function HomeHeader(props) {
             <div className='qiuck-navigate-section'>
                 <ul className='qiuck-navigate-options'>
                     <QiuckNavigateOptionComponent
-                        onClick={() => navigator('/service-providers')}
+                        onClick={() => navigator('/business_frames/service-providers')}
                         title={'Service Providers'}
                         icon={faBuilding}
                         text={'explore your service providers, all service providers found and start navigate through all its content and relatives.'}
                     ></QiuckNavigateOptionComponent>
                     <SpaceComponent width={'10px'} />
                     <QiuckNavigateOptionComponent
-                        onClick={() => navigator('/branches')}
+                        onClick={() => navigator('/business_frames/branches')}
                         title={'Branches'}
                         icon={faMapMarkerAlt}
                         text={'go to branches and expose its features where you can modify exactly how it they should look in term of users, resources and user permission in each one, '}></QiuckNavigateOptionComponent>
                     <SpaceComponent width={'10px'} />
                     <QiuckNavigateOptionComponent
-                        onClick={() => navigator('/resources')}
+                        onClick={() => navigator('/business_frames/resources')}
                         title={'Resources'}
                         icon={faFolderOpen}
                         text={'resources is the mean content we framed and organized, you can do whatever you want in your content.'}></QiuckNavigateOptionComponent>
                     <SpaceComponent width={'10px'} />
                     <QiuckNavigateOptionComponent
-                        onClick={() => navigator('/members')}
+                        onClick={() => navigator('/business_frames/members')}
                         title={'Users'}
                         icon={faUsers}
                         text={'expose other users like you and discover their businesses and role in this platform and make connetion with them to make the experience more plenty.'}></QiuckNavigateOptionComponent>

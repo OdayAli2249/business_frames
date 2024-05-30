@@ -26,7 +26,7 @@ function ResourcesComponent(props) {
                     if (props.onExploreClicked)
                         props.onExploreClicked()
                     else
-                        navigate('/resources?section=2')
+                        navigate('/business_frames/resources?section=2')
                 }}
                 image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/resources_home.jpg'}
                 type={1}

@@ -25,7 +25,7 @@ function MembersComponent(props) {
                     if (props.onExploreClicked)
                         props.onExploreClicked()
                     else
-                        navigate('/members?section=2')
+                        navigate('/business_frames/members?section=2')
                 }}
                 image={'https://odayali2249.github.io/portfolio-resources/resources/bf/images/members_home.jpg'}
                 type={0}
